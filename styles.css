@@ -1,0 +1,75 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+@keyframes arka {
+    from {background-color:  #023e8a;}
+  to {background-color: blueviolet;}
+}
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #023e8a;
+    color: #ade8f4;
+    border-bottom: 20px solid #006494;
+    border-radius: 30px;
+    text-shadow: 5px 5px 5px black;
+    animation-name: arka;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+p {
+    width: 220px
+}
+p:hover {
+    background-color: black;
+}
+h4:hover {
+    
+    background-color: orange;
+}
+.border-blue {
+    border: 1px dotted blue;
+    
+}
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
